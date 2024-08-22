@@ -98,7 +98,7 @@ def vis_zoom(
     output_path: Path,
     zoom_xy: int = 40,
     zoom_magnification: int = 10,
-    fps: int = 30,
+    fps: int = 10,
     steps: int = 50,
     video_dir: Path = Path("./"),
     generate_mp4: bool = False,
